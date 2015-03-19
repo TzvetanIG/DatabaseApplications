@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="urn:exams" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:exams" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="exam">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string" />
+        <xs:element name="date-taken" type="xs:date" />
+        <xs:element name="grade" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

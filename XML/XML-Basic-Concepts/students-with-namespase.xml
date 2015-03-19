@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<students 
+		xmlns:student = "urn:students"
+		xmlns:exam = "urn:exams">
+	<student:student>
+		<student:name>Питър Гешов</student:name>
+		<student:gender>мъж</student:gender>
+		<student:birth-date>1990-03-17</student:birth-date>
+		<student:phone-number>088888888</student:phone-number>
+		<student:email>peter.90@gmail.com</student:email>
+		<student:university>УАСГ - София</student:university>
+		<student:specialty>ССС</student:specialty>
+		<student:faculty-number>01-01-2589565</student:faculty-number>
+		<exams>
+			<exam:exam>
+				<exam:name>Теоретична механика</exam:name>
+				<exam:date-taken>2015-02-10</exam:date-taken>
+        <exam:grade>5.8</exam:grade>
+			</exam:exam>
+			<exam:exam>
+				<exam:name>Съпротивление на материалите</exam:name>
+				<exam:date-taken>2015-02-08</exam:date-taken>
+				<exam:grade>3</exam:grade>
+			</exam:exam>
+		</exams>
+	</student:student>
+	<student:student>
+		<student:name>Миме Берова</student:name>
+		<student:gender>жена</student:gender>
+		<student:birth-date>1991-04-02</student:birth-date>
+		<student:email>mimBer@abv.bg</student:email>
+		<student:university>УАСГ - София</student:university>
+		<student:specialty>ВиК</student:specialty>
+		<exams>
+			<exam:exam>
+				<exam:name>Съпротивление на материалите</exam:name>
+				<exam:date-taken>2015-01-10</exam:date-taken>
+				<exam:grade>5</exam:grade>
+			</exam:exam>
+			<exam:exam>
+				<exam:name>Напоителни системи</exam:name>
+				<exam:date-taken>2015-01-11</exam:date-taken>
+				<exam:grade>6</exam:grade>
+			</exam:exam>
+		</exams>
+	</student:student>
+	<student:student>
+		<student:name>Хамал Маил</student:name>
+		<student:gender>Мъж</student:gender>
+		<student:birth-date>1980</student:birth-date>
+		<student:phone-number>0000000000</student:phone-number>
+		<student:email>hamal@gmail.com</student:email>
+		<student:university>Хамалския университет - с. Щанга</student:university>
+		<student:specialty>Пренос на едрогабаритни предмети</student:specialty>
+		<exams>
+			<exam:exam>
+				<exam:name>Издръжливост на човешката анатомия</exam:name>
+				<exam:date-taken>2015-03-15</exam:date-taken>
+				<exam:grade>2.1</exam:grade>
+			</exam:exam>
+			<exam:exam>
+				<exam:name>Физическа подготовка</exam:name>
+				<exam:date-taken>2015-03-16</exam:date-taken>
+				<exam:grade>6</exam:grade>
+			</exam:exam>
+		</exams>
+	</student:student>
+</students>
